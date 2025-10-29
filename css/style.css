@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcfaf7;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.logo{
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+}
+
+.redes{
+    width: 30px;
+    height: 30px;
+}
+.redes1{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    margin-right: 80px;
+    
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    margin-right: 130px;
+    
+}
+.links li a{
+    color: #96520D;
+}
+.nosotros{
+    position: relative;
+}
+.nosotros img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.nosotros h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    text-align: center;
+    color: #fcfaf7;
+}
+
+.nosotros1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border: 2px solid #96520D;
+    margin: 150px;
+}
+.nosotros2{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.nosotros2 h2{
+    color: #b38143;
+    padding-bottom: 18px; 
+    font-size: 30px
+}
+
+.nosotros2 p{
+    font-size: 20px;
+}
+
+.nosotros3{
+    
+}
+.nosotros3 img{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* ubicacion */
+
+.ubicacion img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.ubicacion h2{
+    position: absolute;
+    top: 195%;
+    left: 48%;
+    font-size: 30px;
+    color: #f0e7d8;
+}
+
+.ubicacion2 p{
+    position: absolute;
+    font-size: 28px;
+    gap: 100;
+    top: 200%;
+    left: 48%;
+    right: 18%;
+    color: #fcfaf7;
+}
+
+
+.filosofia{
+    margin-top: 200px;
+    display: flex;
+    gap: 150px;
+    margin-left: 300px;
+    margin-bottom: 180px;
+    margin-right: 300px;
+    border: solid 2px #b38143;
+    padding: 130px;
+}
+
+.filosofia1{
+    border-right: 3px solid #b38143;
+    padding-right: 80px;
+}
+
+.filosofia1 h2{
+    font-size: 28px;
+}
+
+.filosofia1 p{
+    font-size: 20px;
+}
+
+.filosofia2 h2{
+    font-size: 28px;
+}
+
+.filosofia2 p{
+    font-size: 20px;
+}
+
+.boton1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    border: solid 2px #96520D;
+    border-radius: 20px;
+    margin-left: 800px;
+    margin-right: 800px;
+    background-color: #96520D;
+    color: #f0e7d8;
+    font-size: 24px;
+    list-style-type: none;
+    padding: 5px;
+}
+
+/* footer */
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    background-color: #f0e7d8;
+    padding-top: 20px;
+}
+.foot1 img{
+    width: 180px;
+    height: 40px;
+}
+.foot2 p{
+    font-size: 20px;
+    color: #96520D;
+}
+
+
+
+/* productos */
+
+.Productos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 260px;
+    margin-top: 100px;
+    gap: 10px;
+    padding: 40px;
+    padding-right: 50;
+}
+
+.Productos h2{
+    font-size: 40px;
+}
+
+.Productos p{
+    font-size: 20px;
+}
+
+.productos2{
+    display: flex;
+    background-color: #f0e7d8;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.productos3{
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.productos3 h2{
+    font-size: 40px;
+}
+
+.productos3 p{
+    font-size: 20px;
+}
+
+.productos4 img{
+    width: 400px;
+    height: 250px;
+    padding: 30px;
+    margin-left: 180px;
+    margin-right: 70px;
+}
+
+
+
