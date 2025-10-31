@@ -1,0 +1,83 @@
+@media (max-width: 1440px){
+    .nosotros1{
+        margin: 100px;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
+    .nosotros2{
+        margin-top: 150px;
+    }
+
+    .ubicacion h2{
+        top: 140%;
+    }
+
+    .ubicacion2 p{
+        top: 146%;
+        font-size: 26px;
+    }
+
+    .filosofia{
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+
+    .boton1{
+        margin-left: 530px;
+        margin-right: 530px;
+    }
+
+    /* producto */
+    .tiponuez2{
+        width: 200px;
+        height: 150px;
+    }
+
+    .fichatec{
+        margin-left: 530px;
+        margin-right: 530px;
+    }
+
+    .almendras{
+        margin-left: 180px;
+        margin-right: 135px;
+    }
+
+    .almendras div img{
+        width: 450px;
+        margin-top: 100px;
+        margin-left: 70px;
+
+    }
+
+    .mixs2{
+        margin-left: 120px;
+    }
+    .origen1 p{
+        font-size: 20px;
+    }
+
+    .origen1 img{
+        width: 350px;
+        margin-top: 110px;
+    }
+
+    .proceso{
+        margin-top: 130px;
+    }
+
+    .proceso1 img{
+        width: 330px;
+    }
+
+    .procplanta2{
+        max-width: 180px;
+    }
+
+    .procplanta1{
+        justify-content: left;
+        gap: 97px;
+    }
+
+}
