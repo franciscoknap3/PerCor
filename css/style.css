@@ -15,9 +15,9 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-
-
+    
 }
+
 
 .logo{
     width: 250px;
@@ -118,12 +118,12 @@ body{
 
 .ubicacion h2{
     position: absolute;
-    top: 195%;
+    top: 180%;
     left: 48%;
     font-size: 30px;
     color: #f0e7d8;
     font-family: "Poppins", sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -131,7 +131,7 @@ body{
     position: absolute;
     font-size: 28px;
     gap: 100;
-    top: 200%;
+    top: 189%;
     left: 48%;
     right: 18%;
     color: #fcfaf7;
@@ -166,17 +166,23 @@ body{
 
 .filosofia1 p{
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .filosofia2 h2{
     font-size: 28px;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .filosofia2 p{
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .boton1{
@@ -247,11 +253,17 @@ body{
 .Productos h2{
     font-size: 40px;
     color: #96520D;
+        font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     
 }
 
 .Productos p{
     font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .productos2{
@@ -270,6 +282,9 @@ body{
 .productos3 h2{
     font-size: 40px;
     color: #96520D;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .productos3 p{
@@ -355,7 +370,7 @@ body{
 
 .almendras h3{
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 38px;
     margin-top: 50px;
@@ -368,7 +383,7 @@ body{
     border-right: solid 1px #b38143;
     padding-right: 20px;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -488,6 +503,9 @@ body{
 }
 .origen1 p{
     font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .origen1{
@@ -534,15 +552,31 @@ body{
 .procplanta1{
     display: flex;
     margin-top: 100px;
-    gap: 20px;
+    gap: 100px;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
     
 }
 
 .procplanta2 img{
-    margin-bottom: 40px;
-
+    width: 100%;
+    height: 300px;
 }
+
+.procplanta2 h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.procplanta2 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
 .contactos{
     display: flex;
     gap: 40px;
