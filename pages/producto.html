@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Producto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="https://i.ibb.co/PZg1CpNr/Logo-1-Editada.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/media.css">
@@ -13,12 +14,15 @@
 </head>
 <body>
 <header class="head">
-        <a  href="index.html"><img class="logo" src="https://i.ibb.co/qYnCBX3q/Logo-1.png" alt="Logo Percor"></a>
-        <button>Abrir</button>
+        <a  href="../index.html"><img class="logo" src="https://i.ibb.co/qYnCBX3q/Logo-1.png" alt="Logo Percor"></a>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+
+        <div class="nav2" id="nav2">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-lg"></i></button>
         <div class="nav">
         <ul class="links">
             <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./pages/producto.html">Producto</a></li>
+            <li><a href="./producto.html">Producto</a></li>
             <li><a href="./proceso.html">Proceso</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
         </ul>
@@ -27,12 +31,13 @@
             <li><a href=""><img class="redes" src="https://i.ibb.co/ksmWm51q/Facebook.png" alt="Facebook"></a></li>
             <li><a href=""><img class="redes" src="https://i.ibb.co/cSXdbtPm/Insta.png" alt="Instagram"></a></li>
         </ul>
+        </div>
     </header>
 
     <main>
         <div class="nosotros">
-            <img src="https://i.ibb.co/F4sB1ctg/Banners-Imagen-2.jpg" alt="">
-            <h1>NUESTROS PRODUCTOS</h1>
+            <img src="https://i.ibb.co/7xPSgL34/NUESTROS-PRODUCTOS.jpg" alt="">
+
 
         </div>
 
@@ -139,6 +144,8 @@
         </div>
         </div>
     </footer>
+
+<script src="../js/main.js"></script>
 
 
 </body>

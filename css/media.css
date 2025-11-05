@@ -1,5 +1,13 @@
 /* Laptop 1440px */
+
 @media (max-width: 1440px){
+
+    .nav2{
+        gap: 250px;
+    }
+    .redes1{
+        margin-right: 20px;
+    }
     .nosotros1{
         margin: 100px;
         padding-left: 40px;
@@ -7,7 +15,7 @@
     }
 
     .nosotros2{
-        margin-top: 150px;
+        margin-top: 190px;
     }
 
     .ubicacion h2{
@@ -34,6 +42,7 @@
         width: 200px;
         height: 150px;
     }
+
 
     .fichatec{
         margin-left: 530px;
@@ -91,6 +100,10 @@
         height: 30px;
         margin: 18px;
         margin-top: 25px;
+    }
+
+    .nav2{
+        gap: 140px;
     }
     .redes1{
         margin-right: 30px;
@@ -264,6 +277,17 @@
 }
 
 @media (max-width: 768px){
+
+    
+    .links{
+        flex-direction: column;
+    }
+
+    .redes1{
+        margin-right: 60px;
+    }
+
+
     .logo{
         width: 130px;
         height: 20px;
@@ -700,4 +724,59 @@
         font-size: 20px;
     }
 
+    .abrir-menu{
+        display: block;
+    }
+
+    .head{
+        justify-content: space-between;
+    }
+
+    
+
+}
+
+@media(max-width: 950px){
+
+        .abrir-menu{
+        display: block;
+        margin-right: 30px;
+        border: 0;
+        font-size: 30px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 30px;
+        background-color: transparent;
+        cursor: pointer;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+
+    .nav2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .nav2{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0%;
+        right: 0%;
+        background-color: #fcfaf7;
+        padding-right: 5px;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .nav2.visible{
+        opacity: 1;
+        visibility: visible;
+    }
 }
